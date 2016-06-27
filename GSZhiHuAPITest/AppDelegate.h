@@ -8,14 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class MainViewController;
+//@class MainViewController;
 @class LaunchAnimationView;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (nonatomic, strong) MainViewController *mainViewController;
+//@property (nonatomic, strong) MainViewController *mainViewController;
+@property (nonatomic, strong) UITabBarController *mainTabBarController;
 @property (nonatomic, strong) LaunchAnimationView * launchAnimationViewController;
 
 @end

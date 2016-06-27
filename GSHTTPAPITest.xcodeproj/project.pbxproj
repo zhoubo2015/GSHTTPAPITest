@@ -21,6 +21,12 @@
 		8547DE331C4E36960075D703 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE321C4E36960075D703 /* LaunchView.m */; };
 		8547DE361C4E3DD90075D703 /* CustomLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE351C4E3DD90075D703 /* CustomLaunch.m */; };
 		8547DE391C4F139E0075D703 /* LaunchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE381C4F139E0075D703 /* LaunchData.m */; };
+		85E3C4C51D210046002E4ECB /* ZHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4C41D210046002E4ECB /* ZHMainViewController.m */; };
+		85E3C4CE1D2100FC002E4ECB /* VideoNewsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4CD1D2100FC002E4ECB /* VideoNewsMainController.m */; };
+		85E3C4D11D21011A002E4ECB /* NeteaseNewsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4D01D21011A002E4ECB /* NeteaseNewsMainController.m */; };
+		85E3C4D41D210441002E4ECB /* language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85E3C4D61D210441002E4ECB /* language.strings */; };
+		85E3C4F01D2106CB002E4ECB /* LanguageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4EF1D2106CB002E4ECB /* LanguageManage.m */; };
+		85E3C4F21D2115A2002E4ECB /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E3C4F11D2115A2002E4ECB /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,19 @@
 		8547DE351C4E3DD90075D703 /* CustomLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLaunch.m; sourceTree = "<group>"; };
 		8547DE371C4F139E0075D703 /* LaunchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchData.h; sourceTree = "<group>"; };
 		8547DE381C4F139E0075D703 /* LaunchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchData.m; sourceTree = "<group>"; };
+		85E3C4C31D210046002E4ECB /* ZHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHMainViewController.h; path = ZhiHu/ZHMainViewController.h; sourceTree = "<group>"; };
+		85E3C4C41D210046002E4ECB /* ZHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHMainViewController.m; path = ZhiHu/ZHMainViewController.m; sourceTree = "<group>"; };
+		85E3C4CC1D2100FC002E4ECB /* VideoNewsMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoNewsMainController.h; path = NeteaseNews/VideoNewsMainController.h; sourceTree = "<group>"; };
+		85E3C4CD1D2100FC002E4ECB /* VideoNewsMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoNewsMainController.m; path = NeteaseNews/VideoNewsMainController.m; sourceTree = "<group>"; };
+		85E3C4CF1D21011A002E4ECB /* NeteaseNewsMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeteaseNewsMainController.h; path = NeteaseNews/NeteaseNewsMainController.h; sourceTree = "<group>"; };
+		85E3C4D01D21011A002E4ECB /* NeteaseNewsMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NeteaseNewsMainController.m; path = NeteaseNews/NeteaseNewsMainController.m; sourceTree = "<group>"; };
+		85E3C4D51D210441002E4ECB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/language.strings; sourceTree = "<group>"; };
+		85E3C4D81D21054D002E4ECB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		85E3C4D91D21054D002E4ECB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		85E3C4DA1D21054D002E4ECB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/language.strings"; sourceTree = "<group>"; };
+		85E3C4EE1D2106CB002E4ECB /* LanguageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
+		85E3C4EF1D2106CB002E4ECB /* LanguageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManage.m; sourceTree = "<group>"; };
+		85E3C4F11D2115A2002E4ECB /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = Image/Image.xcassets; sourceTree = "<group>"; };
 		8FB5DDF516576A0E16C67F8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFEB6DA659C24A17EA38243 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF0A9854DEC6160C8CE64E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,9 +107,12 @@
 		8547DDF91C4DBF120075D703 /* GSZhiHuAPITest */ = {
 			isa = PBXGroup;
 			children = (
+				85E3C4C61D21008B002E4ECB /* VideoNews */,
 				8547DE251C4E2FE20075D703 /* Utils */,
 				8547DE241C4E2E430075D703 /* AppDelegate */,
 				8547DE1A1C4E2D010075D703 /* Main */,
+				85E3C4B81D20FB7A002E4ECB /* Netease News */,
+				85E3C4B71D20FB1D002E4ECB /* ZhiHuDaily */,
 				8547DE151C4E297C0075D703 /* Launch */,
 				8547DDFA1C4DBF120075D703 /* Supporting Files */,
 			);
@@ -106,6 +128,8 @@
 				8547DE0B1C4DBF120075D703 /* Info.plist */,
 				8547DDFB1C4DBF120075D703 /* main.m */,
 				8547DE291C4E30A10075D703 /* PrefixHeader.pch */,
+				85E3C4D61D210441002E4ECB /* language.strings */,
+				85E3C4F11D2115A2002E4ECB /* Image.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,6 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				8547DE281C4E30520075D703 /* Macros.h */,
+				85E3C4EE1D2106CB002E4ECB /* LanguageManage.h */,
+				85E3C4EF1D2106CB002E4ECB /* LanguageManage.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -241,6 +267,153 @@
 			children = (
 				8547DE2B1C4E32480075D703 /* UIWindow+Launch.h */,
 				8547DE2C1C4E32480075D703 /* UIWindow+Launch.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		85E3C4B71D20FB1D002E4ECB /* ZhiHuDaily */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4BE1D20FBF2002E4ECB /* Controller */,
+				85E3C4BD1D20FBEC002E4ECB /* Model */,
+				85E3C4BC1D20FBE4002E4ECB /* View */,
+			);
+			name = ZhiHuDaily;
+			sourceTree = "<group>";
+		};
+		85E3C4B81D20FB7A002E4ECB /* Netease News */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4BB1D20FBDC002E4ECB /* Controller */,
+				85E3C4BA1D20FBD4002E4ECB /* Model */,
+				85E3C4B91D20FBC5002E4ECB /* View */,
+			);
+			name = "Netease News";
+			sourceTree = "<group>";
+		};
+		85E3C4B91D20FBC5002E4ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4C21D20FC3C002E4ECB /* ViewModel */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		85E3C4BA1D20FBD4002E4ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		85E3C4BB1D20FBDC002E4ECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4C11D20FC32002E4ECB /* DataController */,
+				85E3C4CF1D21011A002E4ECB /* NeteaseNewsMainController.h */,
+				85E3C4D01D21011A002E4ECB /* NeteaseNewsMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		85E3C4BC1D20FBE4002E4ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4C01D20FC22002E4ECB /* ViewModel */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		85E3C4BD1D20FBEC002E4ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		85E3C4BE1D20FBF2002E4ECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4C31D210046002E4ECB /* ZHMainViewController.h */,
+				85E3C4C41D210046002E4ECB /* ZHMainViewController.m */,
+				85E3C4BF1D20FBFE002E4ECB /* DataController */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		85E3C4BF1D20FBFE002E4ECB /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		85E3C4C01D20FC22002E4ECB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		85E3C4C11D20FC32002E4ECB /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		85E3C4C21D20FC3C002E4ECB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		85E3C4C61D21008B002E4ECB /* VideoNews */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4C91D2100AF002E4ECB /* Model */,
+				85E3C4C81D2100AB002E4ECB /* View */,
+				85E3C4C71D2100A4002E4ECB /* Controller */,
+			);
+			name = VideoNews;
+			sourceTree = "<group>";
+		};
+		85E3C4C71D2100A4002E4ECB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4CB1D2100BF002E4ECB /* DataController */,
+				85E3C4CC1D2100FC002E4ECB /* VideoNewsMainController.h */,
+				85E3C4CD1D2100FC002E4ECB /* VideoNewsMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		85E3C4C81D2100AB002E4ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85E3C4CA1D2100B5002E4ECB /* ViewModel */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		85E3C4C91D2100AF002E4ECB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		85E3C4CA1D2100B5002E4ECB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		85E3C4CB1D2100BF002E4ECB /* DataController */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = DataController;
 			sourceTree = "<group>";
@@ -306,6 +479,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 8547DDEE1C4DBF120075D703;
 			productRefGroup = 8547DDF81C4DBF120075D703 /* Products */;
@@ -322,7 +496,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E3C4D41D210441002E4ECB /* language.strings in Resources */,
 				8547DE0A1C4DBF120075D703 /* LaunchScreen.storyboard in Resources */,
+				85E3C4F21D2115A2002E4ECB /* Image.xcassets in Resources */,
 				8547DE071C4DBF120075D703 /* Assets.xcassets in Resources */,
 				8547DE051C4DBF120075D703 /* Main.storyboard in Resources */,
 			);
@@ -385,12 +561,16 @@
 			files = (
 				8547DE021C4DBF120075D703 /* LaunchAnimationView.m in Sources */,
 				8547DDFF1C4DBF120075D703 /* AppDelegate.m in Sources */,
+				85E3C4D11D21011A002E4ECB /* NeteaseNewsMainController.m in Sources */,
+				85E3C4C51D210046002E4ECB /* ZHMainViewController.m in Sources */,
 				8547DE2D1C4E32480075D703 /* UIWindow+Launch.m in Sources */,
 				8547DDFC1C4DBF120075D703 /* main.m in Sources */,
 				8547DE301C4E355B0075D703 /* GetLaunchDataInfo.m in Sources */,
 				8547DE331C4E36960075D703 /* LaunchView.m in Sources */,
+				85E3C4F01D2106CB002E4ECB /* LanguageManage.m in Sources */,
 				8547DE361C4E3DD90075D703 /* CustomLaunch.m in Sources */,
 				8547DE201C4E2DEA0075D703 /* MainViewController.m in Sources */,
+				85E3C4CE1D2100FC002E4ECB /* VideoNewsMainController.m in Sources */,
 				8547DE391C4F139E0075D703 /* LaunchData.m in Sources */,
 				8547DE131C4E23B10075D703 /* AFNTool.m in Sources */,
 			);
@@ -403,6 +583,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8547DE041C4DBF120075D703 /* Base */,
+				85E3C4D81D21054D002E4ECB /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -411,8 +592,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				8547DE091C4DBF120075D703 /* Base */,
+				85E3C4D91D21054D002E4ECB /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		85E3C4D61D210441002E4ECB /* language.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E3C4D51D210441002E4ECB /* en */,
+				85E3C4DA1D21054D002E4ECB /* zh-Hans */,
+			);
+			name = language.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

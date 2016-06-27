@@ -51,6 +51,16 @@
 {
     GSLog_INFO(@"%@", view);
     [self.view addSubview:view];
+    
+    [UIView animateWithDuration:3.0f animations:^{
+        self.view.transform = CGAffineTransformMakeScale(1.2, 1.2);
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:3.0f animations:^{
+            self.view.transform = CGAffineTransformMakeScale(1.0, 1.0);
+        } completion:^(BOOL finished) {
+            
+        }];
+    }];
 }
 
 - (void)removeLanuchSubView

@@ -1,0 +1,14 @@
+/* 
+  File.strings
+  GSHTTPAPITest
+
+  Created by ZhouDamon on 16/6/27.
+  Copyright © 2016年 ZhouDamon. All rights reserved.
+*/
+
+
+"zhihu_title" = "知乎";
+"netease_title" = "网易";
+"video_title" = "视频";
+"live_title" = "直播";
+"userinfo_title" = "我";
