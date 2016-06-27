@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "965528C3A64942AFD259E5475611A848EC2E5244",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "965528C3A64942AFD259E5475611A848EC2E5244" : 0,
+    "9AB0922805FEC4329FB8916A9F5DF1B241267926" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "77F58CA9-419E-4ABC-B134-7FA4B5C1623D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "965528C3A64942AFD259E5475611A848EC2E5244" : "GSHTTPAPITest\/",
+    "9AB0922805FEC4329FB8916A9F5DF1B241267926" : "..\/Desktop\/GSZhiHuAPITest"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GSZhiHuAPITest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GSZhiHuAPITest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhoubo2015\/GSHTTPAPITest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "965528C3A64942AFD259E5475611A848EC2E5244"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhoubo2015\/GSHTTPAPITest",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9AB0922805FEC4329FB8916A9F5DF1B241267926"
+    }
+  ]
+}
