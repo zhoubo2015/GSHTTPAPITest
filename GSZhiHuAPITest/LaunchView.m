@@ -41,6 +41,11 @@
     return self;
 }
 
+- (void)dealloc
+{
+    GSLog_INFO(@"%s", __FUNCTION__);
+}
+
 #pragma mark -- touch 
 - (void)skipButtonTouched:(id)sender
 {

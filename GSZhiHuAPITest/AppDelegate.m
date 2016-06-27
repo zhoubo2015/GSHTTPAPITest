@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "LaunchAnimationView.h"
 #import "UIWindow+Launch.h"
 
 @interface AppDelegate ()
@@ -27,7 +28,9 @@
     self.window.rootViewController = self.mainViewController;
     [self.window makeKeyAndVisible];
     
-    [self.window launchAnimationView];
+//    [self.window launchAnimationView];
+    self.launchAnimationViewController = [[LaunchAnimationView alloc] init];
+    [self.window addSubview:self.launchAnimationViewController.view];
     
     return YES;
 }

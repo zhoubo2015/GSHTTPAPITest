@@ -14,17 +14,21 @@ typedef NS_ENUM(NSInteger, LaunchType) {
     LaunchTypeMultiImage
 };
 
-@protocol LaunchViewAdd <NSObject>
+@protocol LaunchViewAddRemove <NSObject>
 
 @required
 - (void)addLaunchSubView:(id)view;
+- (void)removeLanuchSubView;
 
 @end
 
 @interface CustomLaunch : NSObject
+<
+UIEventDelegate
+>
 
-@property (nonatomic, weak)id<LaunchViewAdd>delegate;
+@property (nonatomic, weak)id<LaunchViewAddRemove>delegate;
 
-- (id)initWithImageDic:(NSDictionary *)dic Delegate:(id<LaunchViewAdd>)delegate;
+- (id)initWithImageDic:(NSDictionary *)dic Delegate:(id<LaunchViewAddRemove>)delegate;
 
 @end

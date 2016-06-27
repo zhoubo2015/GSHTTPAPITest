@@ -11,8 +11,7 @@
 
 @interface LaunchAnimationView : UIViewController
 <
-LaunchViewAdd,
-UIEventDelegate
+LaunchViewAddRemove
 >
 
 

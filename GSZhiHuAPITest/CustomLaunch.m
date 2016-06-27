@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "CustomLaunch.h"
+#import "LaunchAnimationView.h"
 
 @interface CustomLaunch ()
 {
@@ -30,7 +31,7 @@
     return self;
 }
 
-- (id)initWithImageDic:(NSDictionary *)dic Delegate:(id<LaunchViewAdd>)delegate
+- (id)initWithImageDic:(NSDictionary *)dic Delegate:(id<LaunchViewAddRemove>)delegate
 {
     self = [self init];
     if (self) {
@@ -44,6 +45,11 @@
     return self;
 }
 
+- (void)dealloc
+{
+    GSLog_INFO(@"%s", __FUNCTION__);
+}
+
 #pragma mark -- private
 
 - (void)updateLaunchView
@@ -53,7 +59,7 @@
         {
             for (UIImage *image in [imageDic allValues]) {
                 LaunchView *subLaunchView = [[LaunchView alloc] initWithImage:image];
-                subLaunchView.delegate = (id<UIEventDelegate>)(self.delegate);
+                subLaunchView.delegate = self;
                 
                 if (self.delegate && [self.delegate respondsToSelector:@selector(addLaunchSubView:)]) {
                     [self.delegate addLaunchSubView:subLaunchView];
@@ -63,11 +69,20 @@
             break;
         case LaunchTypeMultiImage:
         {
-            //scroller
+            //scrollerView
         }
             break;
         default:
             break;
+    }
+}
+
+#pragma mark -- uieventdelegate
+- (void)SendTouchEvent:(id)sender
+{
+    GSLog_INFO(@"%@", sender);
+    if (self.delegate && [self.delegate respondsToSelector:@selector(removeLanuchSubView)]) {
+        [self.delegate removeLanuchSubView];
     }
 }
 

@@ -27,7 +27,6 @@
     dataController = [[GetLaunchDataInfo alloc] init];
     [dataController updateLanchView:^(NSDictionary *imageDic) {
         viewModel = [[CustomLaunch alloc] initWithImageDic:imageDic Delegate:self];
-//        viewModel.touchDelegate = self;
     }];
 }
 
@@ -47,16 +46,17 @@
 }
 
 #pragma mark -- delegate
-- (void)SendTouchEvent:(id)sender
-{
-    GSLog_INFO(@"%@", sender);
-    [self.view removeFromSuperview];
-}
 
 - (void)addLaunchSubView:(id)view
 {
     GSLog_INFO(@"%@", view);
     [self.view addSubview:view];
+}
+
+- (void)removeLanuchSubView
+{
+    GSLog_INFO(@"");
+    [self.view removeFromSuperview];
 }
 
 @end

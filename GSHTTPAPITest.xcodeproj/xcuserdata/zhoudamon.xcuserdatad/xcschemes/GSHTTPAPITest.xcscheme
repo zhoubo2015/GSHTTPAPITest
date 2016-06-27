@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8547DDF61C4DBF120075D703"
-               BuildableName = "GSHTTPAPITest.app"
+               BuildableName = "WBZhiHuDailyPape.app"
                BlueprintName = "GSHTTPAPITest"
                ReferencedContainer = "container:GSHTTPAPITest.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8547DDF61C4DBF120075D703"
-            BuildableName = "GSHTTPAPITest.app"
+            BuildableName = "WBZhiHuDailyPape.app"
             BlueprintName = "GSHTTPAPITest"
             ReferencedContainer = "container:GSHTTPAPITest.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8547DDF61C4DBF120075D703"
-            BuildableName = "GSHTTPAPITest.app"
+            BuildableName = "WBZhiHuDailyPape.app"
             BlueprintName = "GSHTTPAPITest"
             ReferencedContainer = "container:GSHTTPAPITest.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8547DDF61C4DBF120075D703"
-            BuildableName = "GSHTTPAPITest.app"
+            BuildableName = "WBZhiHuDailyPape.app"
             BlueprintName = "GSHTTPAPITest"
             ReferencedContainer = "container:GSHTTPAPITest.xcodeproj">
          </BuildableReference>
