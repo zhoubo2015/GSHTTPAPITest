@@ -21,6 +21,7 @@
 		8547DE331C4E36960075D703 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE321C4E36960075D703 /* LaunchView.m */; };
 		8547DE361C4E3DD90075D703 /* CustomLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE351C4E3DD90075D703 /* CustomLaunch.m */; };
 		8547DE391C4F139E0075D703 /* LaunchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE381C4F139E0075D703 /* LaunchData.m */; };
+		8575FA6E1D25021F003B9303 /* LatestSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8575FA6D1D25021F003B9303 /* LatestSectionModel.m */; };
 		85E3C4C51D210046002E4ECB /* ZHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4C41D210046002E4ECB /* ZHMainViewController.m */; };
 		85E3C4CE1D2100FC002E4ECB /* VideoNewsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4CD1D2100FC002E4ECB /* VideoNewsMainController.m */; };
 		85E3C4D11D21011A002E4ECB /* NeteaseNewsMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4D01D21011A002E4ECB /* NeteaseNewsMainController.m */; };
@@ -56,6 +57,8 @@
 		8547DE351C4E3DD90075D703 /* CustomLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLaunch.m; sourceTree = "<group>"; };
 		8547DE371C4F139E0075D703 /* LaunchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchData.h; sourceTree = "<group>"; };
 		8547DE381C4F139E0075D703 /* LaunchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchData.m; sourceTree = "<group>"; };
+		8575FA6C1D25021F003B9303 /* LatestSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatestSectionModel.h; sourceTree = "<group>"; };
+		8575FA6D1D25021F003B9303 /* LatestSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatestSectionModel.m; sourceTree = "<group>"; };
 		85E3C4C31D210046002E4ECB /* ZHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHMainViewController.h; path = ZhiHu/ZHMainViewController.h; sourceTree = "<group>"; };
 		85E3C4C41D210046002E4ECB /* ZHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHMainViewController.m; path = ZhiHu/ZHMainViewController.m; sourceTree = "<group>"; };
 		85E3C4CC1D2100FC002E4ECB /* VideoNewsMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoNewsMainController.h; path = NeteaseNews/VideoNewsMainController.h; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 		85E3C4BF1D20FBFE002E4ECB /* DataController */ = {
 			isa = PBXGroup;
 			children = (
+				8575FA6C1D25021F003B9303 /* LatestSectionModel.h */,
+				8575FA6D1D25021F003B9303 /* LatestSectionModel.m */,
 			);
 			name = DataController;
 			sourceTree = "<group>";
@@ -573,6 +578,7 @@
 				85E3C4CE1D2100FC002E4ECB /* VideoNewsMainController.m in Sources */,
 				8547DE391C4F139E0075D703 /* LaunchData.m in Sources */,
 				8547DE131C4E23B10075D703 /* AFNTool.m in Sources */,
+				8575FA6E1D25021F003B9303 /* LatestSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
