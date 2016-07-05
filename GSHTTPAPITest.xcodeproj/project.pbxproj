@@ -28,6 +28,9 @@
 		85E3C4D41D210441002E4ECB /* language.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85E3C4D61D210441002E4ECB /* language.strings */; };
 		85E3C4F01D2106CB002E4ECB /* LanguageManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E3C4EF1D2106CB002E4ECB /* LanguageManage.m */; };
 		85E3C4F21D2115A2002E4ECB /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E3C4F11D2115A2002E4ECB /* Image.xcassets */; };
+		85FD9B021D2B8DBD00406621 /* ZHDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FD9B011D2B8DBD00406621 /* ZHDataController.m */; };
+		85FD9B051D2BA05400406621 /* ZHDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FD9B041D2BA05400406621 /* ZHDataSource.m */; };
+		85FD9B081D2BBA8A00406621 /* ZHNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FD9B071D2BBA8A00406621 /* ZHNewsDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,12 @@
 		85E3C4EE1D2106CB002E4ECB /* LanguageManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManage.h; sourceTree = "<group>"; };
 		85E3C4EF1D2106CB002E4ECB /* LanguageManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManage.m; sourceTree = "<group>"; };
 		85E3C4F11D2115A2002E4ECB /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = Image/Image.xcassets; sourceTree = "<group>"; };
+		85FD9B001D2B8DBD00406621 /* ZHDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHDataController.h; path = ZhiHu/ZHDataController.h; sourceTree = "<group>"; };
+		85FD9B011D2B8DBD00406621 /* ZHDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHDataController.m; path = ZhiHu/ZHDataController.m; sourceTree = "<group>"; };
+		85FD9B031D2BA05400406621 /* ZHDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHDataSource.h; path = ZhiHu/ZHDataSource.h; sourceTree = "<group>"; };
+		85FD9B041D2BA05400406621 /* ZHDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHDataSource.m; path = ZhiHu/ZHDataSource.m; sourceTree = "<group>"; };
+		85FD9B061D2BBA8A00406621 /* ZHNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHNewsDetailViewController.h; path = ZhiHu/ZHNewsDetailViewController.h; sourceTree = "<group>"; };
+		85FD9B071D2BBA8A00406621 /* ZHNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHNewsDetailViewController.m; path = ZhiHu/ZHNewsDetailViewController.m; sourceTree = "<group>"; };
 		8FB5DDF516576A0E16C67F8B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFEB6DA659C24A17EA38243 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF0A9854DEC6160C8CE64E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,12 +119,12 @@
 		8547DDF91C4DBF120075D703 /* GSZhiHuAPITest */ = {
 			isa = PBXGroup;
 			children = (
-				85E3C4C61D21008B002E4ECB /* VideoNews */,
 				8547DE251C4E2FE20075D703 /* Utils */,
 				8547DE241C4E2E430075D703 /* AppDelegate */,
-				8547DE1A1C4E2D010075D703 /* Main */,
+				8547DE1A1C4E2D010075D703 /* Live */,
 				85E3C4B81D20FB7A002E4ECB /* Netease News */,
 				85E3C4B71D20FB1D002E4ECB /* ZhiHuDaily */,
+				85E3C4C61D21008B002E4ECB /* VideoNews */,
 				8547DE151C4E297C0075D703 /* Launch */,
 				8547DDFA1C4DBF120075D703 /* Supporting Files */,
 			);
@@ -196,14 +205,14 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
-		8547DE1A1C4E2D010075D703 /* Main */ = {
+		8547DE1A1C4E2D010075D703 /* Live */ = {
 			isa = PBXGroup;
 			children = (
 				8547DE231C4E2E240075D703 /* View */,
 				8547DE221C4E2E1C0075D703 /* Model */,
 				8547DE211C4E2E0C0075D703 /* Controller */,
 			);
-			name = Main;
+			name = Live;
 			sourceTree = "<group>";
 		};
 		8547DE211C4E2E0C0075D703 /* Controller */ = {
@@ -339,6 +348,8 @@
 			children = (
 				85E3C4C31D210046002E4ECB /* ZHMainViewController.h */,
 				85E3C4C41D210046002E4ECB /* ZHMainViewController.m */,
+				85FD9B061D2BBA8A00406621 /* ZHNewsDetailViewController.h */,
+				85FD9B071D2BBA8A00406621 /* ZHNewsDetailViewController.m */,
 				85E3C4BF1D20FBFE002E4ECB /* DataController */,
 			);
 			name = Controller;
@@ -347,8 +358,12 @@
 		85E3C4BF1D20FBFE002E4ECB /* DataController */ = {
 			isa = PBXGroup;
 			children = (
+				85FD9B001D2B8DBD00406621 /* ZHDataController.h */,
+				85FD9B011D2B8DBD00406621 /* ZHDataController.m */,
 				8575FA6C1D25021F003B9303 /* LatestSectionModel.h */,
 				8575FA6D1D25021F003B9303 /* LatestSectionModel.m */,
+				85FD9B031D2BA05400406621 /* ZHDataSource.h */,
+				85FD9B041D2BA05400406621 /* ZHDataSource.m */,
 			);
 			name = DataController;
 			sourceTree = "<group>";
@@ -570,6 +585,8 @@
 				85E3C4C51D210046002E4ECB /* ZHMainViewController.m in Sources */,
 				8547DE2D1C4E32480075D703 /* UIWindow+Launch.m in Sources */,
 				8547DDFC1C4DBF120075D703 /* main.m in Sources */,
+				85FD9B081D2BBA8A00406621 /* ZHNewsDetailViewController.m in Sources */,
+				85FD9B051D2BA05400406621 /* ZHDataSource.m in Sources */,
 				8547DE301C4E355B0075D703 /* GetLaunchDataInfo.m in Sources */,
 				8547DE331C4E36960075D703 /* LaunchView.m in Sources */,
 				85E3C4F01D2106CB002E4ECB /* LanguageManage.m in Sources */,
@@ -577,6 +594,7 @@
 				8547DE201C4E2DEA0075D703 /* MainViewController.m in Sources */,
 				85E3C4CE1D2100FC002E4ECB /* VideoNewsMainController.m in Sources */,
 				8547DE391C4F139E0075D703 /* LaunchData.m in Sources */,
+				85FD9B021D2B8DBD00406621 /* ZHDataController.m in Sources */,
 				8547DE131C4E23B10075D703 /* AFNTool.m in Sources */,
 				8575FA6E1D25021F003B9303 /* LatestSectionModel.m in Sources */,
 			);
@@ -700,6 +718,7 @@
 			baseConfigurationReference = ECFEB6DA659C24A17EA38243 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
 				GCC_PREFIX_HEADER = GSZhiHuAPITest/PrefixHeader.pch;
@@ -716,6 +735,7 @@
 			baseConfigurationReference = FAF0A9854DEC6160C8CE64E4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
 				GCC_PREFIX_HEADER = GSZhiHuAPITest/PrefixHeader.pch;

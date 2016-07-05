@@ -9,45 +9,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GSZhiHuAPITest/ZhiHu/ZHMainViewController.m"
-            timestampString = "488973036.828954"
+            filePath = "GSZhiHuAPITest/ZhiHu/ZHDataController.m"
+            timestampString = "489404509.818941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-updateZhiHuDataLatestNews"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GSZhiHuAPITest/ZhiHu/ZHMainViewController.m"
-            timestampString = "488973037.885097"
+            filePath = "GSZhiHuAPITest/ZhiHu/ZHDataController.m"
+            timestampString = "489404509.818941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-updateZhiHuDataLatestNews"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GSZhiHuAPITest/GetLaunchDataInfo.m"
-            timestampString = "488973209.825309"
+            filePath = "GSZhiHuAPITest/ZhiHu/ZHDataController.m"
+            timestampString = "489404509.818941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-updateLanchView:"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-updateZhiHuDataLatestNews"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

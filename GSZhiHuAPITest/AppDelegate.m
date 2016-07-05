@@ -44,8 +44,6 @@
     
     self.mainTabBarController = [[UITabBarController alloc] init];
     [self.mainTabBarController setViewControllers:[NSArray arrayWithObjects:naviZhiHu, neteaseNews, videoNews, liveVideo, userInfo, nil]];
-//    self.mainTabBarController.tabBarItem.image = [UIImage imageNamed:@"message"];
-//    self.mainTabBarController.tabBarItem.selectedImage = [UIImage imageNamed:@"message_selected"];
 //    self.mainTabBarController.selectedIndex = 0;
     [self setCustomTabar];
     
@@ -53,8 +51,8 @@
     [self.window makeKeyAndVisible];
     
 //    [self.window launchAnimationView];
-    self.launchAnimationViewController = [[LaunchAnimationView alloc] init];
-    [self.window addSubview:self.launchAnimationViewController.view];
+//    self.launchAnimationViewController = [[LaunchAnimationView alloc] init];
+//    [self.window addSubview:self.launchAnimationViewController.view];
     
     return YES;
 }
