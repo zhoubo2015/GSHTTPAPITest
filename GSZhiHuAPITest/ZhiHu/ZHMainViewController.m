@@ -135,10 +135,7 @@ ZHDataProtocol
         id item = [dataController.dataSource itemAtIndexPath:indexPath];
         if ([item isKindOfClass:[StoryModel class]]) {
             StoryModel *story = (StoryModel *)item;
-            //http://news-at.zhihu.com/api/4/news/3892357
-            ZHNewsDetailViewController *article = [[ZHNewsDetailViewController alloc] init];
-            article.urlStr = [NSString stringWithFormat:@"http://news-at.zhihu.com/api/4/news/%d", [story.id intValue]];
-            [self.navigationController pushViewController:article animated:YES];
+            [dataController updateDetailStory:story];
         }
     }
 }
@@ -147,6 +144,13 @@ ZHDataProtocol
 - (void)dataGetFinished
 {
     [latestTableView reloadData];
+}
+
+- (void)outputHtmlUrl:(DetailStory *)story
+{
+    ZHNewsDetailViewController *article = [[ZHNewsDetailViewController alloc] init];
+    article.detailStory = story;
+    [self.navigationController pushViewController:article animated:YES];
 }
 
 @end

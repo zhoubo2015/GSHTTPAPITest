@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class DetailStory;
 @interface ZHNewsDetailViewController : UIViewController
 
-@property (nonatomic, copy) NSString *urlStr;
+@property (nonatomic, strong)DetailStory *detailStory;
 
 @end

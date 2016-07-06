@@ -13,10 +13,12 @@
 #import <Foundation/Foundation.h>
 #import "ZHDataSource.h"
 #import "LatestSectionModel.h"
+#import "DetailStory.h"
 
 @protocol ZHDataProtocol <NSObject>
 
 - (void)dataGetFinished;
+- (void)outputHtmlUrl:(DetailStory *)story;
 
 @end
 
@@ -29,5 +31,6 @@
 
 - (void)initDataSource:(TableViewCellConfigureBlock)block;
 - (void)updateZhiHuDataLatestNews;
+- (void)updateDetailStory:(StoryModel *)story;
 
 @end

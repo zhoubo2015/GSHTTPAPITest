@@ -11,6 +11,8 @@
 #import "AFNTool.h"
 #import "MJExtension.h"
 
+#import "AFNZhiHu.h"
+
 @implementation ZHDataController
 
 - (id)init
@@ -43,17 +45,27 @@
                 [array addObject:story];
             }
             self.dataSource.items = array;
-//            dispatch_sync(dispatch_get_main_queue(), ^{
-                GSLog_INFO(@"");
-                if (self.dataDelegate && [self.dataDelegate respondsToSelector:@selector(dataGetFinished)]) {
-                    [self.dataDelegate dataGetFinished];
-                }
-//            });
-            
-        } failure:^(NSError *error) {
+            GSLog_INFO(@"");
+            if (self.dataDelegate && [self.dataDelegate respondsToSelector:@selector(dataGetFinished)]) {
+                [self.dataDelegate dataGetFinished];
+            }
+        }
+        failure:^(NSError *error) {
             GSLog_ERROR(@"");
         }];
     });
+}
+
+- (void)updateDetailStory:(StoryModel *)story
+{
+    [AFNZhiHu getDetailStoryWithStoryId:story.id Callback:^(id json) {
+        DetailStory *story = [DetailStory mj_objectWithKeyValues:json];
+        story.htmlUrl = [NSString stringWithFormat:@"<html><head><link rel=\"stylesheet\" href=%@></head><body>%@</body></html>",story.css[0],story.body];
+        
+        if (self.dataDelegate && [self.dataDelegate respondsToSelector:@selector(outputHtmlUrl:)]) {
+            [self.dataDelegate outputHtmlUrl:story];
+        }
+    }];
 }
 
 @end
