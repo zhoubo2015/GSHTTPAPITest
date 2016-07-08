@@ -8,6 +8,8 @@
 
 #import "ZHNewsDetailViewController.h"
 #import "ZHDataController.h"
+#import "DetailStoryTopViewModel.h"
+#import "DetailStoryTopView.h"
 
 @interface ZHNewsDetailViewController ()
 <
@@ -15,6 +17,8 @@ UIWebViewDelegate
 >
 {
     UIWebView *articleWebView;
+//    DetailStoryTopViewModel *topViewModel;
+    DetailStoryTopView * topView;
 }
 
 @end
@@ -29,6 +33,13 @@ UIWebViewDelegate
     [self.view addSubview:articleWebView];
     
     [articleWebView loadHTMLString:self.detailStory.htmlUrl baseURL:nil];
+    
+    topView = [[DetailStoryTopView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 320)];
+    DetailStoryTopViewModel *topViewModel = [[DetailStoryTopViewModel alloc] initWithDetailStory:self.detailStory];
+    [topView bindDataWithViewModel:topViewModel];
+    
+    [self.view addSubview:topView];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated

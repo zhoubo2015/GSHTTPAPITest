@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		560FA6BC93FCA5A44B57CEB6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB5DDF516576A0E16C67F8B /* libPods.a */; };
+		850DEF1B1D2DE9D30015C02E /* DetailStoryTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 850DEF1A1D2DE9D30015C02E /* DetailStoryTopView.m */; };
+		850DEF1E1D2DF5100015C02E /* DetailStoryTopViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850DEF1D1D2DF5100015C02E /* DetailStoryTopViewModel.m */; };
 		8547DDFC1C4DBF120075D703 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DDFB1C4DBF120075D703 /* main.m */; };
 		8547DDFF1C4DBF120075D703 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DDFE1C4DBF120075D703 /* AppDelegate.m */; };
 		8547DE021C4DBF120075D703 /* LaunchAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547DE011C4DBF120075D703 /* LaunchAnimationView.m */; };
@@ -36,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850DEF191D2DE9D30015C02E /* DetailStoryTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailStoryTopView.h; path = ZhiHu/DetailStoryTopView.h; sourceTree = "<group>"; };
+		850DEF1A1D2DE9D30015C02E /* DetailStoryTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailStoryTopView.m; path = ZhiHu/DetailStoryTopView.m; sourceTree = "<group>"; };
+		850DEF1C1D2DF5100015C02E /* DetailStoryTopViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailStoryTopViewModel.h; path = ZhiHu/DetailStoryTopViewModel.h; sourceTree = "<group>"; };
+		850DEF1D1D2DF5100015C02E /* DetailStoryTopViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailStoryTopViewModel.m; path = ZhiHu/DetailStoryTopViewModel.m; sourceTree = "<group>"; };
 		8547DDF71C4DBF120075D703 /* WBZhiHuDailyPape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBZhiHuDailyPape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8547DDFB1C4DBF120075D703 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8547DDFD1C4DBF120075D703 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -338,6 +344,8 @@
 			isa = PBXGroup;
 			children = (
 				85E3C4C01D20FC22002E4ECB /* ViewModel */,
+				850DEF191D2DE9D30015C02E /* DetailStoryTopView.h */,
+				850DEF1A1D2DE9D30015C02E /* DetailStoryTopView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -381,6 +389,8 @@
 		85E3C4C01D20FC22002E4ECB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				850DEF1C1D2DF5100015C02E /* DetailStoryTopViewModel.h */,
+				850DEF1D1D2DF5100015C02E /* DetailStoryTopViewModel.m */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -589,6 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850DEF1B1D2DE9D30015C02E /* DetailStoryTopView.m in Sources */,
 				8547DE021C4DBF120075D703 /* LaunchAnimationView.m in Sources */,
 				8547DDFF1C4DBF120075D703 /* AppDelegate.m in Sources */,
 				85E3C4D11D21011A002E4ECB /* NeteaseNewsMainController.m in Sources */,
@@ -599,6 +610,7 @@
 				85FD9B081D2BBA8A00406621 /* ZHNewsDetailViewController.m in Sources */,
 				85FD9B051D2BA05400406621 /* ZHDataSource.m in Sources */,
 				8547DE301C4E355B0075D703 /* GetLaunchDataInfo.m in Sources */,
+				850DEF1E1D2DF5100015C02E /* DetailStoryTopViewModel.m in Sources */,
 				855950201D2CB40D00C6130F /* AFNZhiHu.m in Sources */,
 				8547DE331C4E36960075D703 /* LaunchView.m in Sources */,
 				85E3C4F01D2106CB002E4ECB /* LanguageManage.m in Sources */,

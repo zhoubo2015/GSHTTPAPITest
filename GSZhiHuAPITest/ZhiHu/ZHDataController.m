@@ -60,6 +60,7 @@
 {
     [AFNZhiHu getDetailStoryWithStoryId:story.id Callback:^(id json) {
         DetailStory *story = [DetailStory mj_objectWithKeyValues:json];
+        //@"<html><head><link rel=\"stylesheet\" href=%@></head><body>%@</body></html>"
         story.htmlUrl = [NSString stringWithFormat:@"<html><head><link rel=\"stylesheet\" href=%@></head><body>%@</body></html>",story.css[0],story.body];
         
         if (self.dataDelegate && [self.dataDelegate respondsToSelector:@selector(outputHtmlUrl:)]) {
